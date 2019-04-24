@@ -16,3 +16,6 @@
 氷っぽい感じのシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56565983-9780d200-65ec-11e9-8200-bd8a100004cb.png" width="300">
 
+- StainedGlass<br>
+ステンドガラス風のシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56679398-f1be8780-66ff-11e9-9331-fec411b5f54c.png" width="300">
