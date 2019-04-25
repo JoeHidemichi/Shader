@@ -24,4 +24,7 @@
 UVスクロールをするシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56682172-fd14b180-6705-11e9-8c79-4bce2d16cece.gif" width="300">
 
+- TextureBlend<br>
+テクスチャをブレンドするシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56713988-56b0c680-676e-11e9-9d64-37adfc1f721c.png" width="300">
 
