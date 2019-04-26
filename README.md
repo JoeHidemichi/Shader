@@ -41,4 +41,8 @@ UVスクロールをするシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56784709-ed43bd00-682c-11e9-9be8-0d5618db3dfe.png" width="300">
 <img src="https://user-images.githubusercontent.com/49868858/56821756-2d855880-688a-11e9-8de7-0fc1119a1e3e.png" width="300">
 
+- Lava<br>
+溶岩のようなシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56822306-9faa6d00-688b-11e9-99b3-bbbdb65b5258.gif" width="300">
+
 
