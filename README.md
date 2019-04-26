@@ -16,8 +16,8 @@
 氷っぽい感じのシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56565983-9780d200-65ec-11e9-8200-bd8a100004cb.png" width="300">
 
-- StainedGlass<br>
-ステンドガラス風のシェーダーです。
+- SimpleStainedGlass<br>
+簡単なステンドガラス風のシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56679398-f1be8780-66ff-11e9-9331-fec411b5f54c.png" width="300">
 
 - UVScroll<br>
@@ -44,5 +44,10 @@ UVスクロールをするシェーダーです。
 - Lava<br>
 溶岩のようなシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56822306-9faa6d00-688b-11e9-99b3-bbbdb65b5258.gif" width="300">
+
+- SimpleToon<br>
+簡単なトゥーンシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56826188-835ffd80-6896-11e9-9d8e-2cc15fd32c9b.png" width="300">
+
 
 
