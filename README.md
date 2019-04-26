@@ -49,5 +49,8 @@ UVスクロールをするシェーダーです。
 簡単なトゥーンシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56826188-835ffd80-6896-11e9-9d8e-2cc15fd32c9b.png" width="300">
 
+- SimpleWave<br>
+簡単な波を作るシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56828264-f8820180-689b-11e9-893d-ecaecad8bf16.gif" width="300">
 
 
