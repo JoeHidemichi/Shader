@@ -53,4 +53,8 @@ UVスクロールをするシェーダーです。
 簡単な波を作るシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56828264-f8820180-689b-11e9-893d-ecaecad8bf16.gif" width="300">
 
+- Dissolve<br>
+熔解するようなシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56851113-7e5a8700-6946-11e9-808b-607bd0dddb7d.gif" width="300">
+<img src="https://user-images.githubusercontent.com/49868858/56851139-b82b8d80-6946-11e9-86ea-156c2b3ee09e.gif" width="300">
 
