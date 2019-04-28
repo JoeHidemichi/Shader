@@ -66,5 +66,9 @@ UVスクロールをするシェーダーです。
 くり抜きシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56860376-f077ae00-69d0-11e9-9fbf-7fa777f291bd.png" width="300">
 
+- PulseNoise<br>
+パルスノイズのシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56867210-c7313f00-6a1d-11e9-9a98-e537965c1d79.gif" width="300">
+
 
 
