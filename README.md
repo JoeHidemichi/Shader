@@ -62,3 +62,9 @@ UVスクロールをするシェーダーです。
 簡単な雪シェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56859957-662d4b00-69cc-11e9-9565-24594d77a008.png" width="300">
 
+- Cutout<br>
+くり抜きシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56860376-f077ae00-69d0-11e9-9fbf-7fa777f291bd.png" width="300">
+
+
+
