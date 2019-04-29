@@ -78,5 +78,8 @@ UVスクロールをするシェーダーです。
 Depthを表示するシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56879355-5462ab00-6a93-11e9-84f1-d2d0ad20c5f1.png" width="300">
 
+- HiddenDisp<br>
+隠れいてる部分を表示するシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56881302-f6d25c80-6a9a-11e9-8a35-20ea6810d389.png" width="300">
 
 
