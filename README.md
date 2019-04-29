@@ -70,5 +70,9 @@ UVスクロールをするシェーダーです。
 パルスノイズのシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56867210-c7313f00-6a1d-11e9-9a98-e537965c1d79.gif" width="300">
 
+- PulseNoise<br>
+アウトラインを表示するシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56878419-02b82180-6a8f-11e9-8edd-2e964059b3e8.png" width="300">
+
 
 
