@@ -46,14 +46,11 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed4 col = tex2D(_MainTex, i.uv);
-				
+				// 内積の値をそのまま色に掛ける
 				float3 N = i.normal;
 				float3 L = _WorldSpaceLightPos0;
 				float NdotL = max(0, dot(N, L));
-				col.rgb = col.rgb * _LightColor0.rgb * NdotL;
-				col.a = 1.0;
-
-                return col;
+                return fixed4(col.rgb * _LightColor0.rgb * NdotL, 1);
             }
             ENDCG
         }
