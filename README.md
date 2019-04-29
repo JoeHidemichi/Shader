@@ -86,4 +86,8 @@ Depthを表示するシェーダーです。
 Lambert反射をするシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56883516-dd80de80-6aa1-11e9-92df-55f5fac1f361.png" width="300">
 
+- HalfLambert<br>
+HalfLambert反射をするシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56884395-9cd69480-6aa4-11e9-93e2-36a9a5112fd8.png" width="300">
+
 
