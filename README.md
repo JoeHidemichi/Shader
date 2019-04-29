@@ -82,4 +82,8 @@ Depthを表示するシェーダーです。
 隠れいてる部分を表示するシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56881302-f6d25c80-6a9a-11e9-8a35-20ea6810d389.png" width="300">
 
+- Lambert<br>
+Lambert反射をするシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56883516-dd80de80-6aa1-11e9-92df-55f5fac1f361.png" width="300">
+
 
