@@ -90,4 +90,8 @@ Lambert反射をするシェーダーです。
 HalfLambert反射をするシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56884395-9cd69480-6aa4-11e9-93e2-36a9a5112fd8.png" width="300">
 
+- SimplePhong<br>
+簡単なPhong鏡面反射をするシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56887922-c516c100-6aad-11e9-92d8-5b51716f1575.png" width="300">
+
 
