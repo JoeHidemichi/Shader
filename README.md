@@ -74,5 +74,9 @@ UVスクロールをするシェーダーです。
 アウトラインを表示するシェーダーです。
 <img src="https://user-images.githubusercontent.com/49868858/56878419-02b82180-6a8f-11e9-8edd-2e964059b3e8.png" width="300">
 
+- DepthDraw<br>
+Depthを表示するシェーダーです。
+<img src="https://user-images.githubusercontent.com/49868858/56879355-5462ab00-6a93-11e9-84f1-d2d0ad20c5f1.png" width="300">
+
 
 
