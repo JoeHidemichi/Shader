@@ -92,6 +92,12 @@ HalfLambert反射をするシェーダーです。
 
 - SimplePhong<br>
 簡単なPhong鏡面反射をするシェーダーです。
-<img src="https://user-images.githubusercontent.com/49868858/56887922-c516c100-6aad-11e9-92d8-5b51716f1575.png" width="300">
+反射ベクトルを法線に対称なベクトルで計算しました。
+<img src="https://user-images.githubusercontent.com/49868858/56954598-22784400-6b7a-11e9-96db-159f16496a3d.png" width="300">
+
+- Phong<br>
+Phong鏡面反射をするシェーダーです。
+反射ベクトルを(Light-Eye)/|Light-Eye|で計算しました。
+<img src="https://user-images.githubusercontent.com/49868858/56954602-25733480-6b7a-11e9-94e4-4a3b2dc59c9b.png" width="300">
 
 
