@@ -4,7 +4,7 @@
     {
         _MainTex ("Texture", 2D) = "white" {}
 		_Specular("Specular", Range(0, 1)) = 1.0
-		_SpecularPower ("Specular Power", Range(1, 100)) = 10.0
+		_SpecularPower ("Specular Power", Float) = 10.0
     }
     SubShader
     {
@@ -56,9 +56,9 @@
 				// R：法線を中心とした光の反射ベクトル
 				//    Lをそのまま直進させ法線を２倍にしたベクトルを足すことで表現
 				// spec：視線ベクトルと光の反射ベクトルを内積で取ることで視線ベクトルに平行なほど白くする（足し合わせる）
-				float3 N = i.normal;
-				float3 L = _WorldSpaceLightPos0;
-				float3 V = i.viewDir;
+				float3 N = normalize(i.normal);
+				float3 L = normalize(_WorldSpaceLightPos0);
+				float3 V = normalize(i.viewDir);
 				float NdotL = max(0, dot(N, L));						// Lembert反射
 				float3 R = normalize(-L + 2.0 * N * NdotL);				// スペキュラ用の光の反射ベクトル
 				float3 spec = pow(max(0, dot(R, V)), _SpecularPower) * _Specular;	// 視線ベクトルと光の反射ベクトルが内積を取る

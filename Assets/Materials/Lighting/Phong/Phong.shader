@@ -53,9 +53,9 @@
             {
                 fixed4 col = tex2D(_MainTex, i.uv);
 
-				float3 N = i.normal;
-				float3 V = i.viewDir;
-				float3 L = _WorldSpaceLightPos0;
+				float3 N = normalize(i.normal);
+				float3 V = normalize(i.viewDir);
+				float3 L = normalize(_WorldSpaceLightPos0);
 				float3 R = normalize(L + V);
 				float diffuse = max(0, dot(L, N));
 				float specular = pow(max(0, dot(N, R)), _SpecularPower) * _Specular;
