@@ -98,6 +98,6 @@ HalfLambert反射をするシェーダーです。
 - Phong<br>
 Phong鏡面反射をするシェーダーです。
 反射ベクトルを(Light-Eye)/|Light-Eye|で計算しました。
-<img src="https://user-images.githubusercontent.com/49868858/56954602-25733480-6b7a-11e9-94e4-4a3b2dc59c9b.png" width="300">
+<img src="https://user-images.githubusercontent.com/49868858/56955669-07f39a00-6b7d-11e9-9e16-86e702ae02ae.png" width="300">
 
 
