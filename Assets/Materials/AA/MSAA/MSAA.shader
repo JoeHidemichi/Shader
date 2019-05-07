@@ -3,7 +3,6 @@
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-		//_SubSample ("Sub Sample", Int) = 1
 		_Threshold ("Threshold", Range(0,1)) = 0.01
 		_SubSampleSize("Sub Sample Size", Float) = 0.25
     }
@@ -36,7 +35,6 @@
             float4 _MainTex_ST;
 			sampler2D _CameraDepthTexture;
 			float4 _MainTex_TexelSize;
-			//int _SubSample;
 			float _Threshold;
 			float _SubSampleSize;
 
@@ -81,21 +79,6 @@
 				}
 				col.rgb /= 4.0;
 				col.a = 1.0;
-
-				//float2 pixelPos = i.uv - _MainTex_TexelSize.xy * 0.5;
-				//float2 lenXY = _MainTex_TexelSize.y / _SubSample;
-				//float depth = UNITY_SAMPLE_DEPTH(tex2D(_CameraDepthTexture, i.uv));
-				//for (int y = 0; y < _SubSample; ++y)
-				//{
-				//	for (int x = 0; x < _SubSample; ++x)
-				//	{
-				//		float2 subPixelPos = pixelPos + float2(y, x) * lenXY.xy;
-				//		float subDepth = UNITY_SAMPLE_DEPTH(tex2D(_CameraDepthTexture, subPixelPos));
-				//		float delta = abs(subDepth - depth);
-				//		col.rgb += tex2D(_MainTex, subPixelPos) * (1.0 + delta);
-				//	}
-				//}
-				//col.rgb /= float(_SubSample * _SubSample);
 
 				return col;
 			}
