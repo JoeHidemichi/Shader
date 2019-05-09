@@ -3,7 +3,7 @@
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-		_Threshold ("Threshold", Range(0,1)) = 0.01
+		_Threshold ("Threshold", Range(0.0,0.1)) = 0.003
 		_SubSampleSize("Sub Sample Size", Float) = 0.25
     }
     SubShader
@@ -46,10 +46,9 @@
                 return o;
             }
 
-
 			fixed4 frag(v2f i) : SV_Target
 			{
-				fixed4 col = (0,0,0,0);
+				fixed4 col = fixed4(0, 0, 0, 0);
 
 				float2 texel = _MainTex_TexelSize.xy;
 				float2 halfHalfSize = texel * _SubSampleSize;
