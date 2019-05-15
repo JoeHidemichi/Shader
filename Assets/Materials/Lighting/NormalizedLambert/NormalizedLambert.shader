@@ -16,7 +16,7 @@
             #pragma fragment frag
             #include "UnityCG.cginc"
 
-			#define PI 3.1415926585
+			#define PI 3.1415926535
 
             struct appdata
             {
