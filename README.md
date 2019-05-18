@@ -89,7 +89,7 @@ Lambert反射をするシェーダーです。
 
 - HalfLambert<br>
 HalfLambert反射をするシェーダーです。
-<img src="https://user-images.githubusercontent.com/49868858/56884395-9cd69480-6aa4-11e9-93e2-36a9a5112fd8.png" width="300">
+<img src="https://user-images.githubusercontent.com/49868858/57965829-7e1d3c80-7984-11e9-9dcd-5942b6877b94.png" width="300">
 
 - Phong<br>
 Phong鏡面反射をするシェーダーです。<br>
