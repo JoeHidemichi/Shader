@@ -105,7 +105,7 @@ BlinnPhong鏡面反射をするシェーダーです。<br>
 <img src="https://user-images.githubusercontent.com/49868858/57966366-d572db00-798b-11e9-8014-6d98249a4f5a.png" width="300">
 
 - NormalizedHalfLambert<br>
-正規化Lambert反射するシェーダーです。<br>
+正規化HalfLambert反射するシェーダーです。<br>
 参考：http://www.project-asura.com/program/d3d11/d3d11_005.html
 <img src="https://user-images.githubusercontent.com/49868858/57966346-7f059c80-798b-11e9-9353-d5348312bcc6.png" width="300">
 
