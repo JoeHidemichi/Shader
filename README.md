@@ -89,7 +89,7 @@ Lambert反射をするシェーダーです。
 
 - HalfLambert<br>
 HalfLambert反射をするシェーダーです。
-<img src="https://user-images.githubusercontent.com/49868858/56884395-9cd69480-6aa4-11e9-93e2-36a9a5112fd8.png" width="300">
+<img src="https://user-images.githubusercontent.com/49868858/57965829-7e1d3c80-7984-11e9-9dcd-5942b6877b94.png" width="300">
 
 - Phong<br>
 Phong鏡面反射をするシェーダーです。<br>
@@ -99,7 +99,19 @@ Phong鏡面反射をするシェーダーです。<br>
 BlinnPhong鏡面反射をするシェーダーです。<br>
 <img src="https://user-images.githubusercontent.com/49868858/56955669-07f39a00-6b7d-11e9-9e16-86e702ae02ae.png" width="300">
 
-## Anti-Aliasing
+- NormalizedLambert<br>
+正規化Lambert反射するシェーダーです。<br>
+参考：http://www.project-asura.com/program/d3d11/d3d11_004.html
+<img src="https://user-images.githubusercontent.com/49868858/57966366-d572db00-798b-11e9-8014-6d98249a4f5a.png" width="300">
+
+- NormalizedHalfLambert<br>
+正規化HalfLambert反射するシェーダーです。<br>
+参考：http://www.project-asura.com/program/d3d11/d3d11_005.html
+<img src="https://user-images.githubusercontent.com/49868858/57966346-7f059c80-798b-11e9-9353-d5348312bcc6.png" width="300">
+
+
+
+# Anti-Aliasing
 - SSAA PostEffect<br>
 ポストエフェクトでSSAAをするシェーダーです。<br>
 AAなし・SSAAあり<br>
