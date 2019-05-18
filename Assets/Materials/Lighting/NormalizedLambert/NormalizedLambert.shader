@@ -57,7 +57,8 @@
 				// NormalizeLambert
 				float3 N = normalize(i.normal);
 				float3 L = normalize(_WorldSpaceLightPos0);
-				float3 diffuse = NormalizedLambert(col, L, N);
+				float Id = 2.0;
+				float3 diffuse = NormalizedLambert(col * Id, L, N);
                 return fixed4(diffuse * _LightColor0.rgb, 1.0f);
             }
             ENDCG
