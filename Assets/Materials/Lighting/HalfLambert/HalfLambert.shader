@@ -53,7 +53,7 @@
 				float p = dot(N, L);					// -1.0 ~ 1.0
 				p *= 0.5;								// -0.5 ~ 0.5
 				p += 0.5;								//  0.0 ~ 1.0
-                return fixed4(col.rgb * p * _LightColor0.rgb, 1.0);
+                return fixed4(col.rgb * p * p * _LightColor0.rgb, 1.0);
             }
             ENDCG
         }
